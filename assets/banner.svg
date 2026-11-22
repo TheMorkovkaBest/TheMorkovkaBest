@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220" role="img" aria-label="Vladislav — TheMorkovkaBest GitHub Profile Banner">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="55%" stop-color="#111A2B"/>
+      <stop offset="100%" stop-color="#0B1320"/>
+    </linearGradient>
+
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+
+    <radialGradient id="rf-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.22"/>
+      <stop offset="60%" stop-color="#10B981" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#0B1320" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid-pattern" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1F2A3C" stroke-width="0.8" opacity="0.45"/>
+    </pattern>
+
+    <clipPath id="card-clip">
+      <rect x="0.75" y="0.75" width="898.5" height="218.5" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card-clip)">
+    <!-- Base dark card -->
+    <rect width="900" height="220" fill="url(#bg-grad)"/>
+    <!-- Subtle technical grid -->
+    <rect width="900" height="220" fill="url(#grid-pattern)"/>
+
+    <!-- Ambient glow behind RF/network graphic -->
+    <circle cx="745" cy="110" r="145" fill="url(#rf-glow)"/>
+
+    <!-- Right-side geometric RF propagation rings, sector arcs & backhaul mesh -->
+    <g transform="translate(0, 0)">
+      <!-- Concentric RF propagation rings centered around primary node (745, 110) -->
+      <circle cx="745" cy="110" r="32" fill="none" stroke="#38BDF8" stroke-width="1.1" stroke-opacity="0.32"/>
+      <circle cx="745" cy="110" r="58" fill="none" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.22" stroke-dasharray="4 4"/>
+      <circle cx="745" cy="110" r="88" fill="none" stroke="#10B981" stroke-width="1" stroke-opacity="0.18"/>
+      <circle cx="745" cy="110" r="120" fill="none" stroke="#38BDF8" stroke-width="0.9" stroke-opacity="0.12" stroke-dasharray="2 5"/>
+
+      <!-- Sector coverage wedges -->
+      <path d="M 745 110 L 680 54 A 86 86 0 0 1 785 34 Z" fill="#38BDF8" fill-opacity="0.06" stroke="#38BDF8" stroke-opacity="0.2" stroke-width="0.9"/>
+      <path d="M 745 110 L 822 146 A 85 85 0 0 1 735 194 Z" fill="#10B981" fill-opacity="0.06" stroke="#10B981" stroke-opacity="0.2" stroke-width="0.9"/>
+
+      <!-- Dashed backhaul links between 4 network nodes -->
+      <line x1="646" y1="68" x2="745" y2="110" stroke="#38BDF8" stroke-width="1.3" stroke-opacity="0.48" stroke-dasharray="5 4"/>
+      <line x1="745" y1="110" x2="836" y2="62" stroke="#10B981" stroke-width="1.3" stroke-opacity="0.48" stroke-dasharray="5 4"/>
+      <line x1="745" y1="110" x2="818" y2="168" stroke="#38BDF8" stroke-width="1.3" stroke-opacity="0.42" stroke-dasharray="5 4"/>
+      <line x1="646" y1="68" x2="818" y2="168" stroke="#8B949E" stroke-width="0.9" stroke-opacity="0.2" stroke-dasharray="3 5"/>
+
+      <!-- Secondary node rings -->
+      <circle cx="646" cy="68" r="16" fill="none" stroke="#38BDF8" stroke-width="0.9" stroke-opacity="0.25"/>
+      <circle cx="836" cy="62" r="14" fill="none" stroke="#10B981" stroke-width="0.9" stroke-opacity="0.25"/>
+      <circle cx="818" cy="168" r="15" fill="none" stroke="#38BDF8" stroke-width="0.9" stroke-opacity="0.22"/>
+
+      <!-- Network nodes -->
+      <circle cx="745" cy="110" r="6" fill="#0D1117" stroke="#38BDF8" stroke-width="2.2"/>
+      <circle cx="745" cy="110" r="2.2" fill="#38BDF8"/>
+
+      <circle cx="646" cy="68" r="4.5" fill="#0D1117" stroke="#38BDF8" stroke-width="1.8"/>
+      <circle cx="836" cy="62" r="4.5" fill="#0D1117" stroke="#10B981" stroke-width="1.8"/>
+      <circle cx="818" cy="168" r="4.5" fill="#0D1117" stroke="#38BDF8" stroke-width="1.8"/>
+    </g>
+
+    <!-- Left-side typography -->
+    <text x="44" y="54" fill="#38BDF8" font-family="'JetBrains Mono', Consolas, ui-monospace, monospace" font-size="12" font-weight="600" letter-spacing="1.4">CHIȘINĂU, MOLDOVA  //  UTM · IT</text>
+
+    <text x="44" y="102" fill="#F0F6FC" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="38" font-weight="700" letter-spacing="-0.5">Hi, I'm <tspan fill="#38BDF8">Vladislav</tspan></text>
+
+    <text x="44" y="133" fill="#8B949E" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="500">@TheMorkovkaBest · IT Student &amp; Software Builder</text>
+
+    <text x="44" y="164" fill="#C9D1D9" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="400">3D GIS &amp; RF Simulation  ·  Optimization &amp; AI  ·  Networked Systems</text>
+
+    <rect x="44" y="182" width="64" height="3" rx="1.5" fill="url(#accent-grad)"/>
+  </g>
+
+  <!-- Crisp border -->
+  <rect x="0.75" y="0.75" width="898.5" height="218.5" rx="14" fill="none" stroke="#30363D" stroke-width="1.5"/>
+</svg>
