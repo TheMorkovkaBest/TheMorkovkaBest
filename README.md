@@ -5,9 +5,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/UTM-Technical%20University%20of%20Moldova%20%C2%B7%20IT-38BDF8?style=flat-square&labelColor=0D1117" alt="UTM — Technical University of Moldova · IT">
   <img src="https://img.shields.io/badge/Chi%C8%99in%C4%83u%2C%20Moldova-UTC%2B2-10B981?style=flat-square&labelColor=0D1117" alt="Chișinău, Moldova (UTC+2)">
-  <a href="https://steamcommunity.com/profiles/76561199222987636/">
-    <img src="https://img.shields.io/badge/Steam-Profile-171A21?style=flat-square&logo=steam&logoColor=white&labelColor=0D1117" alt="Steam Profile">
-  </a>
 </p>
 
 ---
